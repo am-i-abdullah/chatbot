@@ -1,0 +1,39 @@
+name: bot
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  cloud_firestore: ^4.15.4
+  cupertino_icons: ^1.0.2
+  dio: ^5.4.0
+  firebase_auth: ^4.17.4
+  firebase_core: ^2.25.4
+  firebase_storage: ^11.6.5
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.1.0
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.3.10
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - .env
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  # command to run: flutter pub run flutter_launcher_icons

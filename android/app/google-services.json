@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460297041918",
+    "project_id": "aibot-a245c",
+    "storage_bucket": "aibot-a245c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460297041918:android:9ed3590ff5b042c56bb2af",
+        "android_client_info": {
+          "package_name": "com.example.bot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjmxcKuH4DpiLnRDpSg05NBZ3DvCRDsuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
