@@ -32,6 +32,7 @@ Future<String> sendRequest(List<Message> chat) async {
       data: requestBody,
     );
 
+    print(response);
     generatedText =
         response.data['candidates'][0]['content']['parts'][0]['text'];
   } catch (error) {
